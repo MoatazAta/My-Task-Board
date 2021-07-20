@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Board</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+
+<body>
+    <h1>My Task Board</h1>
+    <form id="myForm">
+        <ul>
+
+            <label for="noteArea">Note Text</label>
+            <li>
+                <textarea name="noteArea" id="noteArea" cols="50" rows="10" required></textarea>
+            </li>
+
+            <li>
+                <label for="dateNote">Note Date:</label>
+                <input type="date" id="dateNote" name="dateNote">
+            </li>
+
+            <li>
+                <label for="timeNote">Note Time:</label>
+                <input type="time" id="timeNote" name="timeNote">
+            </li>
+
+            <li>
+                <button class="btn btn-primary btn-add" type="button" onclick="addNote()">Add</button>
+                <button class="btn btn-warning" type="button" onclick="clearForm()">Clear</button>
+
+            </li>
+
+        </ul>
+
+    </form>
+
+    <div class="container-fluid m-4">
+        <div class="row" id="notes">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
