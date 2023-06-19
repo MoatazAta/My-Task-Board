@@ -1,6 +1,6 @@
 # Task Board
 
-Welcome to Task Board, a simple web application for managing tasks. This project allows you to add and delete tasks using jQuery, JavaScript, HTML, and CSS.
+Welcome to Task Board, a simple web application for managing tasks. This project allows you to add and delete tasks using JavaScript, HTML, and CSS.
 
 ## Features
 
@@ -13,7 +13,6 @@ Welcome to Task Board, a simple web application for managing tasks. This project
 - HTML5: Structure and layout of the web page.
 - CSS: Styling and visual presentation.
 - JavaScript: Functionality and interactivity.
-- jQuery: Simplified DOM manipulation and event handling.
 
 ## Getting Started
 
